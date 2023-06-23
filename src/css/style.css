@@ -1,0 +1,44 @@
+html {
+    font-family: 'sf display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: var(--background-soft);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color:var(--background-soft-card);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 15px 15px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    font-size: 12px ;
+    line-height: normal;
+}
+
+.card .image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .title-link:hover {
+    color: #2c7dfa;
+}
+.card .title-link {
+    color: var(--color-text-dark);
+    font-weight: 700;
+}
+
+.card .text {
+    color: var(--color-text-soft);
+    font-weight: 300;
+}
